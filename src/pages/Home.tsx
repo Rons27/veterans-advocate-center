@@ -148,25 +148,30 @@ const Home = () => {
                   alignItems: { xs: 'center', sm: 'flex-start' },
                   justifyContent: { xs: 'center', md: 'flex-start' },
                 }}>
-                  <Button 
-                    variant="contained" 
-                    color="secondary" 
-                    size="large"
-                    sx={{ 
-                      fontWeight: 700,
-                      py: 2,
-                      px: 4,
-                      fontSize: '1rem',
-                      borderRadius: 1,
-                      boxShadow: '0 4px 20px rgba(211, 47, 47, 0.4)',
-                      '&:hover': {
-                        transform: 'translateY(-1px)',
-                        boxShadow: '0 6px 25px rgba(211, 47, 47, 0.5)',
-                      },
-                    }}
-                  >
-                    GET HELP TODAY
-                  </Button>
+                <Button 
+                variant="contained" 
+                color="secondary" 
+                size="large"
+                component="a"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfz-fXVSJZ8ebmrTZIRSIzGacmC3WNXEIw6mkob-YnpoTINjQ/viewform?usp=sharing&ouid=117015048486566182542"
+                target="_blank" // optional: opens in new tab
+                rel="noopener noreferrer"
+                sx={{ 
+                  fontWeight: 700,
+                  py: 2,
+                  px: 4,
+                  fontSize: '1rem',
+                  borderRadius: 1,
+                  boxShadow: '0 4px 20px rgba(211, 47, 47, 0.4)',
+                  '&:hover': {
+                    transform: 'translateY(-1px)',
+                    boxShadow: '0 6px 25px rgba(211, 47, 47, 0.5)',
+                  },
+                }}
+              >
+                GET HELP TODAY
+              </Button>
+
                   <Button
                     variant="outlined"
                     size="large"
