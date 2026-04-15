@@ -17,8 +17,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit",
-    "deploy": "npm run build && gh-pages -d dist"
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
