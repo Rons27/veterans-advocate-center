@@ -73,7 +73,13 @@ const Navbar = () => {
         ))}
         <ListItem disablePadding>
           <ListItemButton sx={{ textAlign: 'center' }}>
-            <Button variant="contained" color="secondary" fullWidth>
+            <Button variant="contained" color="secondary" fullWidth
+                      component="a"
+                     href="https://docs.google.com/forms/d/e/1FAIpQLSfz-fXVSJZ8ebmrTZIRSIzGacmC3WNXEIw6mkob-YnpoTINjQ/viewform?usp=sharing&ouid=117015048486566182542"
+                    target="_blank" // optional: opens in new tab
+                    rel="noopener noreferrer"
+            
+            >
               GET STARTED
             </Button>
           </ListItemButton>
@@ -163,6 +169,10 @@ const Navbar = () => {
               <Button
                 variant="contained"
                 color="secondary"
+                       component="a"
+                     href="https://docs.google.com/forms/d/e/1FAIpQLSfz-fXVSJZ8ebmrTZIRSIzGacmC3WNXEIw6mkob-YnpoTINjQ/viewform?usp=sharing&ouid=117015048486566182542"
+                    target="_blank" // optional: opens in new tab
+                    rel="noopener noreferrer"
                 sx={{ fontWeight: 'bold' }}
               >
                 GET STARTED

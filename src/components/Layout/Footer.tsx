@@ -68,6 +68,10 @@ const Footer = () => {
             <Button
               variant="contained"
               color="secondary"
+                     component="a"
+                     href="https://docs.google.com/forms/d/e/1FAIpQLSfz-fXVSJZ8ebmrTZIRSIzGacmC3WNXEIw6mkob-YnpoTINjQ/viewform?usp=sharing&ouid=117015048486566182542"
+                    target="_blank" // optional: opens in new tab
+                    rel="noopener noreferrer"
               sx={{ 
                 fontWeight: 'bold', 
                 px: 3,
